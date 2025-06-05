@@ -1,0 +1,35 @@
+.test
+{
+
+}
+
+
+
+.other-content-a
+{
+
+}
+
+
+.test-2
+{
+
+}
+
+.test-3
+{
+    --scope-hash: h1; /* Collision-prevention ID */
+    background-color: turquoise;
+
+}
+
+.other-content-b
+{
+
+}
+
+.test-4
+{
+    --scope-hash: h2; /* Collision-prevention ID */
+
+}
