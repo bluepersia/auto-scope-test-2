@@ -1,0 +1,41 @@
+.test
+{
+
+}
+
+
+
+.other-content-a
+{
+
+}
+
+
+.test-2
+{
+
+}
+
+.test-5
+{
+    color:red;
+    --scope-hash:h3; /* Collision-prevention ID */;
+
+}
+
+.other-content-b
+{
+
+}
+
+.test-4
+{
+    --scope-hash: h2; /* Collision-prevention ID */
+
+}
+
+.test-3
+{
+    --scope-hash: h1; /* Collision-prevention ID */
+
+}
